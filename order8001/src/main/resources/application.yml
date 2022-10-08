@@ -1,0 +1,23 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: order-service
+  cloud:
+    nacos:
+      cluster-name: DEFAULT_GROUP
+      server-addr: 127.0.0.1:8848
+      discovery:
+        username: nacos
+        password: nacos
+#        区分生产环境和开发环境
+        namespace: public
+
+# feign的默认级别是debug,spring默认是info,所以不会输出
+#单独为feign开启debug级别日志
+logging:
+  level:
+    com.example.order.feign: debug
+
+

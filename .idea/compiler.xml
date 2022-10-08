@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="prodect8041" />
+        <module name="gateway8088" />
+        <module name="stock8011" />
+        <module name="stock8032" />
+        <module name="stock8031" />
+        <module name="order8001" />
+        <module name="order-sentinel8020" />
+        <module name="NacosConfig8050" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alicould" target="1.5" />
+      <module name="gateway" target="1.8" />
+      <module name="gateway8088" target="1.8" />
+      <module name="NacosConfig8050" target="1.8" />
+      <module name="order-sentinel8020" target="1.8" />
+      <module name="order8001" target="1.8" />
+      <module name="prodect8041" target="1.8" />
+      <module name="stock8011" target="1.8" />
+      <module name="stock8031" target="1.8" />
+      <module name="stock8032" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="alicould" options="-parameters" />
+    </option>
+  </component>
+</project>

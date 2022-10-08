@@ -1,0 +1,25 @@
+# nacos-config 专用配置文件
+spring:
+  application:
+    name: nacos-config-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      username: nacos
+      password: nacos
+      config:
+        namespace: public
+        file-extension: yaml  # 只针对默认配置文件
+
+        # 公共配置
+        shared-configs[0]:
+          data-id: com.example.config.properties
+          refresh: true
+
+        # 拓展配置
+        extension-configs:
+          - data-id: com.example.extension.yaml
+            refresh: true
+
+          - data-id: com.example.extension1.yaml
+            refresh: true
