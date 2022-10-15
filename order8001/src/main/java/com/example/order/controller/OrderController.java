@@ -24,7 +24,7 @@ public class OrderController {
 
     @GetMapping("/add")
     public String add(){
-        System.out.println("下单成功");
+        System.out.println("调用订单");
         String msg = stockFeignService.reduce();
         String msg2 = productFeignService.get(1);
 

@@ -33,6 +33,11 @@ public class OpenFeignConfig {
     }
 
 
+    //开启自定义拦截器
+//    @Bean
+//    public FeignAuthRequestInterceptor feignAuthRequestInterceptor() {
+//        return new FeignAuthRequestInterceptor();
+//    }
 
 
 

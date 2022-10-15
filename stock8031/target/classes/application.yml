@@ -1,0 +1,16 @@
+server:
+  port: 8031
+
+spring:
+  application:
+    name: stock-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      cluster-name: DEFAULT_GROUP
+      discovery:
+        username: nacos
+        password: nacos
+#        namespace: public
+      config:
+        file-extension: yaml

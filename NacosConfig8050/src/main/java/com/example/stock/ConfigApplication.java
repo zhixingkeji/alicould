@@ -21,10 +21,8 @@ public class ConfigApplication {
              * 获取nacos配置中心的文件
              * **/
 
-            //从默认配置中读取user.name
+            //从默认配置中读取user.name age
             String username = applicationContext.getEnvironment().getProperty("user.name");
-
-            //从默认配置中读取user.age
             String userage = applicationContext.getEnvironment().getProperty("user.age");
 
             //从shared-configs配置中读取user.config
