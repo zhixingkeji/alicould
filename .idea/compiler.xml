@@ -12,22 +12,14 @@
         <module name="stock8011" />
         <module name="stock8032" />
         <module name="stock8031" />
+        <module name="streamproducer" />
         <module name="order8001" />
         <module name="order-sentinel8020" />
         <module name="NacosConfig8050" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="alicould" target="1.5" />
-      <module name="gateway" target="1.8" />
-      <module name="gateway8088" target="1.8" />
-      <module name="NacosConfig8050" target="1.8" />
-      <module name="order-sentinel8020" target="1.8" />
-      <module name="order8001" target="1.8" />
-      <module name="prodect8041" target="1.8" />
-      <module name="stock8011" target="1.8" />
-      <module name="stock8031" target="1.8" />
-      <module name="stock8032" target="1.8" />
+      <module name="stream-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

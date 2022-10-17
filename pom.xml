@@ -11,6 +11,8 @@
         <module>product8041</module>
         <module>NacosConfig8050</module>
         <module>order-sentinel8020</module>
+        <module>streamproducer</module>
+        <module>streamproducer</module>
     </modules>
 
 
@@ -56,7 +58,9 @@
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
                 <version>2.2.6.RELEASE</version>
+<!--                pom代表聚合项目-->
                 <type>pom</type>
+<!--                import代表引用的时候才生效-->
                 <scope>import</scope>
             </dependency>
 

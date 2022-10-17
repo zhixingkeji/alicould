@@ -1,0 +1,6 @@
+D:\Project\idea-workspace\Study\alicould\order8001\src\main\java\com\example\order\controller\OrderController.java
+D:\Project\idea-workspace\Study\alicould\order8001\src\main\java\com\example\order\OrderApplication.java
+D:\Project\idea-workspace\Study\alicould\order8001\src\main\java\com\example\order\config\OpenFeignConfig.java
+D:\Project\idea-workspace\Study\alicould\order8001\src\main\java\com\example\order\config\RibbonConfig.java
+D:\Project\idea-workspace\Study\alicould\order8001\src\main\java\com\example\order\feign\StockFeignService.java
+D:\Project\idea-workspace\Study\alicould\order8001\src\main\java\com\example\order\feign\ProductFeignService.java

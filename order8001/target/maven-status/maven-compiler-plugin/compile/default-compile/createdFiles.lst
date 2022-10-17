@@ -1,0 +1,6 @@
+com\example\order\feign\ProductFeignService.class
+com\example\order\OrderApplication.class
+com\example\order\controller\OrderController.class
+com\example\order\feign\StockFeignService.class
+com\example\order\config\RibbonConfig.class
+com\example\order\config\OpenFeignConfig.class
